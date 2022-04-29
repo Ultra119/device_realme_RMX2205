@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#define LOG_TAG "android.hardware.biometrics.fingerprint@2.3-service.RMX3031"
-#define LOG_VERBOSE "android.hardware.biometrics.fingerprint@2.3-service.RMX3031"
+#define LOG_TAG "android.hardware.biometrics.fingerprint@2.3-service.RMX2205"
+#define LOG_VERBOSE "android.hardware.biometrics.fingerprint@2.3-service.RMX2205"
 #define FP_PRESS_NOTIFY "/sys/kernel/oppo_display/oppo_notify_fppress"
 #define DIMLAYER_PATH "/sys/kernel/oppo_display/dimlayer_bl_en"
 #define ON 1
