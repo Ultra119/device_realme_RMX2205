@@ -33,6 +33,10 @@ on boot
     write /proc/touchpanel/oplus_tp_limit_enable 0
     write /proc/touchpanel/oplus_tp_direction 1
 
+on early-init
+    mount debugfs debugfs /sys/kernel/debug
+    chmod 0755 /sys/kernel/debug
+
 service prop-adap-core-gsi /odm/bin/self-init gsicore
     class core
     user root
